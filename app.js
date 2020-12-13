@@ -21,7 +21,7 @@ app.get('/:id',  async (req, res) => {
 		
 		//if blocks
 		if (isNaN(siteID)) throw new Error('Site ID must be a number');
-		if (siteID > 10) throw new Error('invalid site ID');
+		//if (siteID > 10) throw new Error('invalid site ID');
 		
 		//funcitons
 		if(requetType === 'siteStatus'){
