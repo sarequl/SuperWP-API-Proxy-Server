@@ -2,12 +2,13 @@
   "name": "SuperwpAPI",
   "version": "1.0.0",
   "main": "app.js",
-  "scripts":{
+  "scripts": {
     "test": "",
     "start": "node app.js"
   },
   "license": "MIT",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "node-fetch": "^2.6.1"
   }
