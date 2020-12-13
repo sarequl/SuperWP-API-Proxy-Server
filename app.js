@@ -22,8 +22,8 @@ const domain = 'superwp.sarequl.me';
 const consumerKey = 'ck_7d03718a5389b029c656e0b6a2b5b8f798eeedbf';
 const consumerSecret = 'cs_8568212749fafb50ce05bbf06ac80190fe6033fd';
 
-function getSiteDetails(id,$domain,$consumerKey,$consumerSecret) {
+function getSiteDetails(id) {
 	return fetch(
-		`https://${$domain}/wp-json/mainwp/v1/site/site?site_id=${id}&consumer_key=${$consumerKey}&consumer_secret=${$consumerSecret}`
+		`https://${domain}/wp-json/mainwp/v1/site/site?site_id=${id}&consumer_key=${consumerKey}&consumer_secret=${consumerSecret}`
 	).then((r) => r.json());
 }
