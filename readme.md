@@ -25,7 +25,7 @@ npm install
 npm start
 ```
 
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/L4L130JXL)
+
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fsarequl%2FSuperWP-API-Proxy-Server.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fsarequl%2FSuperWP-API-Proxy-Server?ref=badge_shield)
 
 
