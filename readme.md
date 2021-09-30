@@ -19,12 +19,14 @@ localhost:3000/1?requetType=siteStatus
 
 
 ## Install and Start Backend Server
-
+for npm:
 ```bash
-npm install
-npm start
+npm install && npm start
 ```
-
+for yarn:
+```bash
+yarn && yarn start
+```
 
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fsarequl%2FSuperWP-API-Proxy-Server.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fsarequl%2FSuperWP-API-Proxy-Server?ref=badge_shield)
 
